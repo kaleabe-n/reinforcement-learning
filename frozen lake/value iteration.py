@@ -52,5 +52,5 @@ env: gym.Env = gym.make(
           "HFFG"],
 )
 
-print("traiing...")
+print("training...")
 print(value_iteration(env, 0.9, 1, 0.001).reshape((4, 4)))
